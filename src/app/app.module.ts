@@ -52,6 +52,9 @@ import {TabViewAllCaseComponent} from './views/side-nav/tabViewAllCase/tab-view-
 import {ResizableModule} from 'angular-resizable-element';
 import {PieChartModule} from '@swimlane/ngx-charts';
 import {CommonModule} from '@angular/common';
+import { SideNavTransformviewallcaseContent0TaskViewComponent } from './views/side-nav/transformViewAllCase/content/0/side-nav-transformviewallcase-content0-task-view.component';
+import { SideNavTransformviewallcaseContent1CaseViewComponent } from './views/side-nav/transformViewAllCase/content/1/side-nav-transformviewallcase-content1-case-view.component';
+import { TransformViewAllCaseComponent } from './views/side-nav/transformViewAllCase/transform-view-all-case.component';
 
 
 @NgModule({
@@ -66,6 +69,9 @@ import {CommonModule} from '@angular/common';
         SideNavTabviewallcaseContent1CaseViewComponent,
         SideNavTabviewallcaseContent2CaseViewComponent,
         TabViewAllCaseComponent,
+        SideNavTransformviewallcaseContent0TaskViewComponent,
+        SideNavTransformviewallcaseContent1CaseViewComponent,
+        TransformViewAllCaseComponent,
     ],
     imports: [
         BrowserModule,
