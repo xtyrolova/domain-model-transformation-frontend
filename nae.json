@@ -147,15 +147,38 @@
                         "path": "tabView"
                     }
                 },
-                "emptyView": {
+                "transformViewAllCase": {
                     "layout": {
-                        "name": "emptyView",
-                        "componentName": "EmptyView"
+                        "name": "tabView",
+                        "componentName": "transformViewAllCase",
+                        "params": {
+                            "tabs": [
+                                {
+                                    "view": {
+                                        "name": "caseView"
+                                    },
+                                    "label": {
+                                        "icon": "storage",
+                                        "text": "All Cases"
+                                    },
+                                    "canBeClosed": false,
+                                    "order": -1
+                                }
+                            ],
+                            "defaultTaskView": {
+                                "view": {
+                                    "name": "taskView"
+                                }
+                            }
+                        }
                     },
                     "access": "private",
-                    "navigation": true,
+                    "navigation": {
+                        "icon": "transform",
+                        "title": "Transformácia"
+                    },
                     "routing": {
-                        "path": "empty"
+                        "path": "transformView"
                     }
                 },
                 "workflows": {
