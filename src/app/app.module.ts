@@ -55,6 +55,9 @@ import {CommonModule} from '@angular/common';
 import { SideNavTransformviewallcaseContent0TaskViewComponent } from './views/side-nav/transformViewAllCase/content/0/side-nav-transformviewallcase-content0-task-view.component';
 import { SideNavTransformviewallcaseContent1CaseViewComponent } from './views/side-nav/transformViewAllCase/content/1/side-nav-transformviewallcase-content1-case-view.component';
 import { TransformViewAllCaseComponent } from './views/side-nav/transformViewAllCase/transform-view-all-case.component';
+import { SideNavAssociationmanagerviewContent0TaskViewComponent } from './views/side-nav/associationManagerView/content/0/side-nav-associationmanagerview-content0-task-view.component';
+import { SideNavAssociationmanagerviewContent1CaseViewComponent } from './views/side-nav/associationManagerView/content/1/side-nav-associationmanagerview-content1-case-view.component';
+import { AssociationManagerViewComponent } from './views/side-nav/associationManagerView/association-manager-view.component';
 
 
 @NgModule({
@@ -72,6 +75,9 @@ import { TransformViewAllCaseComponent } from './views/side-nav/transformViewAll
         SideNavTransformviewallcaseContent0TaskViewComponent,
         SideNavTransformviewallcaseContent1CaseViewComponent,
         TransformViewAllCaseComponent,
+        SideNavAssociationmanagerviewContent0TaskViewComponent,
+        SideNavAssociationmanagerviewContent1CaseViewComponent,
+        AssociationManagerViewComponent,
     ],
     imports: [
         BrowserModule,

@@ -9,6 +9,7 @@ import {EmptyViewComponent} from './views/side-nav/emptyView/empty-view.componen
 import {TabViewAllCaseComponent} from './views/side-nav/tabViewAllCase/tab-view-all-case.component';
 import {RoleAssignmentComponent, WorkflowViewComponent} from '@netgrif/components';
 import { TransformViewAllCaseComponent } from './views/side-nav/transformViewAllCase/transform-view-all-case.component';
+import { AssociationManagerViewComponent } from './views/side-nav/associationManagerView/association-manager-view.component';
 
 
 @Injectable({
@@ -18,7 +19,8 @@ export class TemplateFrontendViewService extends ViewService {
     constructor(configurationService: ConfigurationService, router: Router, loggerService: LoggerService) {
         // This class is managed by schematics. Avoid modifying it by hand.
         // If you want to add views to the application run the 'create-view' schematic.
-        super([{id: 'TransformViewAllCaseComponent', class: TransformViewAllCaseComponent},
+        super([{id: 'AssociationManagerViewComponent', class: AssociationManagerViewComponent},
+			{id: 'TransformViewAllCaseComponent', class: TransformViewAllCaseComponent},
 			{id: 'RoleAssignmentComponent', class: RoleAssignmentComponent},
             {id: 'WorkflowViewComponent', class: WorkflowViewComponent},
             {id: 'TabViewAllCaseComponent', class: TabViewAllCaseComponent},
